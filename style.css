@@ -101,7 +101,6 @@ input{
 .container_2{
     background-color: white;
     width: 510px;
-    height: 525px;
     border-radius: 40px;
     padding: 50px 65px;
     display: none;
@@ -113,7 +112,7 @@ input{
     }
     p{
         margin-top: 5px;
-        font-weight: 500;
+        font-weight: 400;
     }
     span{
         color: var(--blue-dark);
@@ -140,13 +139,14 @@ input{
 
 .center{
     display: flex;
+    align-items: center;
 }
 
 h4{
     font-size: 11.5px;
     color: var(--red);
     margin-top: 41px;
-    margin-left: 193px;
+    margin-left: 194px;
     display: none;
 }
 
@@ -190,6 +190,23 @@ h4{
         width: 100%;
     }
     .container_2{
-        width: 80%;
+        width: 100%;
+        padding: 50px 25px;
+        border-radius: 0;
+        .icon_success_2{
+            margin-top: 70px;
+        }
+        button{
+            margin-top: 250px;
+            width: 100%;
+        }
+    }
+
+    .center{
+        justify-content: space-between;
+    }
+
+    h4{
+        margin-left: 0;
     }
 }
